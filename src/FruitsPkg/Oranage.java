@@ -16,6 +16,16 @@ public class Oranage {
 
     public int size;
 
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public double weight;
+
 
     public double getDistance()
     {
