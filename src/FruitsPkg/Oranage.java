@@ -1,3 +1,5 @@
+
+//These are fruits
 package FruitsPkg;
 
 import java.util.Random;
@@ -14,7 +16,7 @@ public class Oranage {
         this.size = size;
     }
 
-    public int size;
+    private int size;
 
     public double getWeight() {
         return weight;
@@ -24,7 +26,7 @@ public class Oranage {
         this.weight = weight;
     }
 
-    public double weight;
+    private double weight;
 
 
     public double getDistance()
